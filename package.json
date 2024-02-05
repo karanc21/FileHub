@@ -1,0 +1,25 @@
+{
+  "name": "filehub",
+  "version": "1.0.0",
+  "description": "File Management System Project to allow users to upload, list, and delete files",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanc21/FileHub.git"
+  },
+  "author": "Karan Chhabra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karanc21/FileHub/issues"
+  },
+  "homepage": "https://github.com/karanc21/FileHub#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3"
+  }
+}
